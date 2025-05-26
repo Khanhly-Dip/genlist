@@ -32,131 +32,55 @@ class AmazonListingGenerator:
             http_client=http_client
         )
 
-    Emotional_Keywords = {
-        "Gift_Appeal": ["Great for Gifts", "Birthday Gift", "Christmas Gift", "Mother's Day Gift", "Valentine's Day Gift", "Anniversary Gift", "For Him / For Her"],
-        "Comfort_Cozy": ["Cozy", "Warm", "Comfortable", "Relaxing", "Soft Touch", "Soothing", "Luxury Feel", "Calming", "Chic"],
-        "Luxury_Premium": ["Elegant", "Stylish", "Modern", "Sleek", "Luxury", "High-End", "Exclusive", "Sophisticated", "Premium Quality"],
-        "High_Quality": ["Durable", "High-Quality", "Long-Lasting", "Reliable", "Heavy Duty", "Sturdy", "Waterproof", "Scratch-Resistant"],
-        "Ease_Convenience": ["Easy to Use", "Hassle-Free", "User-Friendly", "One-Touch", "Adjustable", "Portable", "Versatile", "Lightweight"]
-    }
-
     def generate_listing(self, input_data: dict) -> dict:
         try:
             logger.info("Starting generate_listing with input: %s", input_data)
             if not input_data["title"]:
                 raise ValueError("Tiêu đề sản phẩm là bắt buộc")
             
+            # Tạo prompt cho OpenAI
             prompt = f"""
-# CHUYÊN GIA TỐI ƯU LISTING SẢN PHẨM AMAZON
+            Bạn là chuyên gia viết nội dung SEO cho sản phẩm của Amazon Seller Central. Hãy tạo content hấp dẫn, sáng tạo và chuẩn SEO, câu từ uyển chuyển, ngôn từ tự nhiên, không lặp từ, tăng tỷ lệ chuyển đổi từ thông tin sản phẩm dưới đây.
 
-## DỮ LIỆU ĐẦU VÀO
+## THÔNG TIN SẢN PHẨM:
 - Tiêu đề gốc: {input_data['title']}
+- Loại sản phẩm (Product Type): {input_data['product_type']}
+- Màu sắc: {input_data['color']}
+- Kích thước (Size): {input_data['size']}
+- Trọng lượng phù hợp: {input_data['weight']}
+- Chất liệu: {input_data['material_type']}
+- Từ khóa chung (phân tách bằng dấu phẩy): {', '.join(input_data['generic_keywords'])}
 - Mô tả sản phẩm ban đầu: {input_data['product_description']}
 
-## BƯỚC 1: PHÂN TÍCH VÀ TRÍCH XUẤT THÔNG TIN
-Từ tiêu đề và mô tả sản phẩm trên, hãy cẩn thận đọc và trích xuất các thông tin sau:
+## YÊU CẦU:
+1. **Tiêu đề sản phẩm (SEO Title)**: Viết tiêu đề dài 100–200 ký tự, chèn từ khóa chính tự nhiên, hấp dẫn người mua, tạo được thu hút ngay khi đọc, có thể trích xuất thêm từ mô tả sản phẩm ban đầu vào tiêu đề và thân thiện với công cụ tìm kiếm.
+2. **Bullet points (Tính năng nổi bật)**: Viết 5 gạch đầu dòng giới thiệu nhấn mạnh lợi ích, các đặc điểm vượt trội của sản phẩm. Giọng văn thân thiện, tự nhiên, thuyết phục khách hàng lựa chọn.
+3. **Mô tả chi tiết (HTML Description)**:
+    - Viết một đoạn mô tả dài 300–500 từ.
+    - Chia bố cục rõ ràng bằng các thẻ HTML như <h2>, <p>, <ul>, <li>, <strong>.
+    - Mở đầu hấp dẫn, giới thiệu sản phẩm theo hướng giải quyết vấn đề cho khách hàng.
+    - Phần giữa trình bày thông tin kỹ thuật, chất liệu, kích thước, công dụng.
+    - Phần cuối khuyến khích mua hàng, kêu gọi hành động (CTA).
+    - Dùng từ đồng nghĩa hợp lý để tránh trùng lặp từ khóa, nhưng vẫn giữ chuẩn SEO và thân thiện với voice search.
+4. Truyền generic_keywords dưới dạng chuỗi, cách nhau bằng dấu ;
 
-### A. THUỘC TÍNH VẬT LÝ (tìm và ghi chép từ mô tả)
-- **Màu sắc:** (đỏ, xanh, đen, trắng, etc.)
-- **Kích thước:** (chiều dài x rộng x cao, size S/M/L, etc.)
-- **Trọng lượng:** (gram, kg, etc.)
-- **Chất liệu:** (nhựa, kim loại, vải, da, etc.)
-- **Xuất xứ/thương hiệu:** (Made in Vietnam, Nike, Samsung, etc.)
+## ĐỊNH DẠNG ĐẦU RA:
+Trả về đúng định dạng JSON bên dưới:
 
-### B. ĐẶC ĐIỂM KỸ THUẬT (nếu có)
-- **Thông số kỹ thuật:** (công suất, dung lượng, tốc độ, etc.)
-- **Tính năng chính:** (chống nước, Bluetooth, cảm ứng, etc.)
-- **Khả năng tương thích:** (iOS, Android, Windows, etc.)
-- **Phụ kiện đi kèm:** (cáp sạc, hộp, túi đựng, etc.)
-
-### C. THÔNG TIN SỬ DỤNG
-- **Đối tượng sử dụng:** (nam, nữ, trẻ em, người lớn tuổi, etc.)
-- **Mục đích sử dụng:** (công việc, thể thao, giải trí, etc.)
-- **Tình huống sử dụng:** (trong nhà, ngoài trời, đi du lịch, etc.)
-- **Độ khó sử dụng:** (đơn giản, cần hướng dẫn, chuyên nghiệp, etc.)
-
-### D. GIÁ TRỊ & LỢI ÍCH
-- **Giải quyết vấn đề gì:** (tiết kiệm thời gian, tăng hiệu quả, etc.)
-- **Cải thiện cuộc sống như thế nào:** (sức khỏe, tiện lợi, tiết kiệm, etc.)
-- **Điểm khác biệt so với sản phẩm tương tự:** (độ bền, thiết kế, giá cả, etc.)
-
-### E. TỪ KHÓA QUAN TRỌNG
-- **Từ khóa chính:** (tên sản phẩm, loại sản phẩm)
-- **Từ khóa mô tả:** (màu sắc, kích thước, chất liệu)
-- **Từ khóa lợi ích:** (tiện lợi, bền đẹp, chất lượng)
-- **Từ khóa tìm kiếm phổ biến:** (dành cho nam/nữ, giá rẻ, chính hãng)
-
-## BƯỚC 2: TẠO NỘI DUNG LISTING
-
-Dựa trên thông tin đã trích xuất ở BƯỚC 1, hãy tạo nội dung theo các quy tắc sau:
-
-### TITLE (Tiêu đề) - Tối đa 150 ký tự
-**Cấu trúc:** [Thương hiệu] - [Loại sản phẩm] - [Đặc điểm chính] - [Lợi ích]
-
-**Quy tắc:**
-- Viết hoa chỉ chữ cái đầu từ quan trọng
-- Từ khóa chính trong 80 ký tự đầu
-- Dùng số thay vì chữ (3 thay vì ba)
-- Ngôn ngữ tự nhiên, thu hút
-- KHÔNG dùng: ALL CAPS, ký tự đặc biệt ($!#), "best seller"
-
-### BULLET POINTS (5 điểm)
-**Định dạng HTML bắt buộc:**
-```html
-<ul>
-<li> Mô tả cụ thể lợi ích</li>
-<li> Đặc điểm và ứng dụng</li>
-<li> Vật liệu, độ bền, tiêu chuẩn</li>
-<li> Dễ sử dụng, tiết kiệm thời gian</li>
-<li> Bảo hành, hỗ trợ khách hàng</li>
-</ul>
-```
-
-**Nguyên tắc:**
-- Tập trung LỢI ÍCH, không chỉ liệt kê tính năng
-- Trả lời trực tiếp thắc mắc của khách hàng
-- Ngôn ngữ gần gũi, dễ hiểu
-- Lồng ghép từ khóa tự nhiên
-- Sử dụng từ khóa cảm xúc phù hợp từ các nhóm sau:
-  * Gift Appeal: {self.Emotional_Keywords['Gift_Appeal']}
-  * Comfort & Cozy: {self.Emotional_Keywords['Comfort_Cozy']}
-  * Luxury & Premium: {self.Emotional_Keywords['Luxury_Premium']}
-  * High Quality: {self.Emotional_Keywords['High_Quality']}
-  * Ease & Convenience: {self.Emotional_Keywords['Ease_Convenience']}
-
-### DESCRIPTION (Mô tả chi tiết)
-**Cấu trúc HTML:**
-```html
-<h2>Giới thiệu sản phẩm</h2>
-<p>Mô tả tổng quan, lợi ích chính</p>
-
-<h2>Tính năng nổi bật</h2>
-<ul>
-<li>Tính năng 1 với lợi ích cụ thể</li>
-<li>Tính năng 2 với ứng dụng thực tế</li>
-</ul>
-
-<h2>Thông tin kỹ thuật</h2>
-<p>Chi tiết thông số, chất lượng, tiêu chuẩn</p>
-```
-
-## ĐỊNH DẠNG ĐỀ XUẤT JSON
-Vui lòng trả về kết quả theo ĐÚNG định dạng JSON sau:
-
-```json
 {{
-    "title": "Tiêu đề sản phẩm tối ưu SEO (tối đa 150 ký tự)",
-    "bullet_points": "<ul><li>Nội dung</li><li>Nội dung</li><li>Nội dung</li><li>Nội dung</li><li>Nội dung</li></ul>",
-    "description": "<h2>Giới thiệu sản phẩm</h2><p>Mô tả tổng quan...</p><h2>Tính năng nổi bật</h2><ul><li>Tính năng 1...</li><li>Tính năng 2...</li></ul><h2>Thông tin chi tiết</h2><p>Chi tiết kỹ thuật...</p>"
+    "title": "Tiêu đề sản phẩm tối ưu SEO",
+    "feed_product": {{
+        "item_type": "{input_data['product_type']}",
+        "standard_price": "Liên hệ",
+        "color": "{input_data['color']}",
+        "size": "{input_data['size']}",
+        "material_type": "{input_data['material_type']}",
+        "generic_keywords": "{', '.join(input_data['generic_keywords'])}"
+    }},
+    "short_description": "<ul><li>Bullet point 1</li><li>Bullet point 2</li><li>...</li></ul>",
+    "description": "<h2>Giới thiệu sản phẩm</h2><p>...</p><h2>Thông tin chi tiết</h2><ul><li>...</li></ul><p>...</p>"
 }}
-```
-
-**Ví dụ phân tích:**
-- Input: "Áo thun nam cotton 100% màu đen size M, chất liệu thoáng mát"
-- Trích xuất: Màu sắc (đen), Kích thước (M), Chất liệu (cotton 100%), Đối tượng (nam), Lợi ích (thoáng mát)
-
-**LưU Ý:** Nếu thông tin nào không có trong mô tả, đừng bịa đặt. Chỉ sử dụng thông tin có sẵn.
-"""
+            """
             
             start_time = time.time()
             response = self.client.chat.completions.create(
@@ -172,8 +96,7 @@ Vui lòng trả về kết quả theo ĐÚNG định dạng JSON sau:
             
             # Lấy nội dung từ response
             content = response.choices[0].message.content.strip()
-            # Log only the first 100 characters to avoid encoding issues
-            logger.info("OpenAI response content (first 100 chars): %s", content[:100] if content else "Empty response")
+            logger.info("OpenAI response content: %s", content)
             
             try:
                 # Clean the response content
@@ -195,10 +118,16 @@ Vui lòng trả về kết quả theo ĐÚNG định dạng JSON sau:
                 logger.info("Parsed JSON result: %s", json.dumps(result, indent=2))
 
                 # Validate required fields
-                required_fields = ["title", "bullet_points", "description"]
+                required_fields = ["title", "feed_product", "short_description", "description"]
                 for field in required_fields:
                     if field not in result:
                         raise ValueError(f"Thiếu trường bắt buộc: {field}")
+                
+                # Validate feed_product fields
+                feed_product_fields = ["item_type", "standard_price", "color", "size", "material_type", "generic_keywords"]
+                for field in feed_product_fields:
+                    if field not in result["feed_product"]:
+                        raise ValueError(f"Thiếu trường bắt buộc trong feed_product: {field}")
                 
                 return result
             except json.JSONDecodeError as e:
@@ -214,7 +143,7 @@ Vui lòng trả về kết quả theo ĐÚNG định dạng JSON sau:
 
     def generate_batch_listings(self, products: List[dict]) -> List[dict]:
         results = []
-        with ThreadPoolExecutor(max_workers=50) as executor:
+        with ThreadPoolExecutor(max_workers=5) as executor:
             future_to_product = {executor.submit(self.generate_listing, product): product for product in products}
             for future in as_completed(future_to_product):
                 product = future_to_product[future]
@@ -226,14 +155,4 @@ Vui lòng trả về kết quả theo ĐÚNG định dạng JSON sau:
                     results.append({"error": str(e), "product": product})
         return results
 
-generator = AmazonListingGenerator()
-
-@ecom_bp.route('/generate', methods=['POST'])
-def generate_listing():
-    try:
-        data = request.get_json()
-        result = generator.generate_listing(data)
-        return jsonify(result)
-    except Exception as e:
-        logger.error(f"Error in generate_listing endpoint: {str(e)}")
-        return jsonify({"error": str(e)}), 500 
+generator = AmazonListingGenerator() 

@@ -1,4 +1,4 @@
-from flask import Blueprint, request, jsonify, send_from_directory, current_app
+from flask import Blueprint, request, jsonify, send_from_directory
 from ..services.logic import generator
 from ..schemas.request import ProductInput, BatchProductRequest
 from ..schemas.response import GeneratedContent, BatchContentGenerationResponse
@@ -8,12 +8,8 @@ import os
 logger = logging.getLogger(__name__)
 ecom_bp = Blueprint('ecom', __name__)
 
-@ecom_bp.route('/generate', methods=['GET', 'POST'])
+@ecom_bp.route('/generate', methods=['POST'])
 def generate_content():
-    if request.method == 'GET':
-        logger.info(f"Serving frontend from blueprint: {current_app.config['FRONTEND_DIR']}")
-        return send_from_directory(current_app.config['FRONTEND_DIR'], 'index.html')
-        
     try:
         data = request.get_json()
         # Validate input data
