@@ -1,0 +1,336 @@
+2025-05-22 11:24:18,239 - app.agents.ecom_agent.services.logic - INFO - Checking OPENAI_API_KEY: Found
+2025-05-22 11:24:18,318 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-22 12:31:23,845 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-22 12:31:23,895 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://194.233.71.122:5001
+2025-05-22 12:31:23,895 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-22 12:31:23,898 - werkzeug - INFO -  * Restarting with stat
+2025-05-22 12:31:24,883 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-22 12:31:24,899 - werkzeug - WARNING -  * Debugger is active!
+2025-05-22 12:31:24,921 - werkzeug - INFO -  * Debugger PIN: 878-599-308
+2025-05-23 16:16:53,509 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-23 16:16:53,586 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-23 16:16:53,586 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-23 16:16:53,589 - werkzeug - INFO -  * Restarting with stat
+2025-05-23 16:16:55,364 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-23 16:16:55,382 - werkzeug - WARNING -  * Debugger is active!
+2025-05-23 16:16:55,387 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-23 16:17:12,901 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 16:17:12] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-23 16:17:13,093 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 16:17:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-23 16:17:18,186 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 16:17:18] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-23 16:17:18,224 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 16:17:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-23 16:18:17,853 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 16:18:17] "[31m[1mGET /api/ecom/generate HTTP/1.1[0m" 405 -
+2025-05-23 16:19:23,450 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app.py', reloading
+2025-05-23 16:19:23,654 - werkzeug - INFO -  * Restarting with stat
+2025-05-23 16:19:26,793 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-23 16:19:26,838 - werkzeug - WARNING -  * Debugger is active!
+2025-05-23 16:19:26,863 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-23 16:19:31,918 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app.py', reloading
+2025-05-23 16:19:32,118 - werkzeug - INFO -  * Restarting with stat
+2025-05-23 16:19:34,907 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-23 16:19:34,951 - werkzeug - WARNING -  * Debugger is active!
+2025-05-23 16:19:34,958 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-23 16:19:37,443 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 16:19:37] "[31m[1mGET /api/ecom/generate HTTP/1.1[0m" 405 -
+2025-05-23 16:19:45,373 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 16:19:45] "[31m[1mGET /api/ecom/generate HTTP/1.1[0m" 405 -
+2025-05-23 16:20:07,257 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\test_api.py', reloading
+2025-05-23 16:20:07,457 - werkzeug - INFO -  * Restarting with stat
+2025-05-23 16:20:09,047 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-23 16:20:09,071 - werkzeug - WARNING -  * Debugger is active!
+2025-05-23 16:20:09,078 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-23 16:20:19,150 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\test_api.py', reloading
+2025-05-23 16:20:19,311 - werkzeug - INFO -  * Restarting with stat
+2025-05-23 16:20:20,876 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-23 16:20:20,891 - werkzeug - WARNING -  * Debugger is active!
+2025-05-23 16:20:20,899 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-23 16:20:28,659 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 16:20:28] "[31m[1mGET /api/ecom/generate HTTP/1.1[0m" 405 -
+2025-05-23 16:22:35,676 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app.py', reloading
+2025-05-23 16:22:35,838 - werkzeug - INFO -  * Restarting with stat
+2025-05-23 16:22:37,545 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-23 16:22:37,562 - werkzeug - WARNING -  * Debugger is active!
+2025-05-23 16:22:37,567 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-23 16:22:46,639 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app\\agents\\ecom_agent\\routes\\ecom.py', reloading
+2025-05-23 16:22:46,840 - werkzeug - INFO -  * Restarting with stat
+2025-05-23 16:22:48,602 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-23 16:22:48,636 - werkzeug - WARNING -  * Debugger is active!
+2025-05-23 16:22:48,644 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-23 16:22:51,688 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app\\agents\\ecom_agent\\routes\\ecom.py', reloading
+2025-05-23 16:22:51,873 - werkzeug - INFO -  * Restarting with stat
+2025-05-23 16:22:53,671 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-23 16:22:53,696 - werkzeug - WARNING -  * Debugger is active!
+2025-05-23 16:22:53,705 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-23 16:22:55,739 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app.py', reloading
+2025-05-23 16:22:55,877 - werkzeug - INFO -  * Restarting with stat
+2025-05-23 16:22:57,453 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-23 16:22:57,471 - werkzeug - WARNING -  * Debugger is active!
+2025-05-23 16:22:57,475 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-23 16:23:04,434 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 16:23:04] "[33mGET /api/ecom/generate HTTP/1.1[0m" 404 -
+2025-05-23 16:23:06,220 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 16:23:06] "[33mGET /api/ecom/generate HTTP/1.1[0m" 404 -
+2025-05-23 16:23:07,602 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 16:23:07] "[33mGET /api/ecom/generate HTTP/1.1[0m" 404 -
+2025-05-23 16:23:16,677 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 16:23:16] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-23 16:23:46,816 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app.py', reloading
+2025-05-23 16:23:47,032 - werkzeug - INFO -  * Restarting with stat
+2025-05-23 16:23:48,864 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-23 16:23:48,890 - werkzeug - WARNING -  * Debugger is active!
+2025-05-23 16:23:48,894 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-23 16:23:56,961 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app\\agents\\ecom_agent\\routes\\ecom.py', reloading
+2025-05-23 16:23:57,245 - werkzeug - INFO -  * Restarting with stat
+2025-05-23 16:23:59,085 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-23 16:23:59,111 - werkzeug - WARNING -  * Debugger is active!
+2025-05-23 16:23:59,119 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-23 16:24:00,141 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app.py', reloading
+2025-05-23 16:24:00,315 - werkzeug - INFO -  * Restarting with stat
+2025-05-23 16:24:02,131 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-23 16:24:02,153 - werkzeug - WARNING -  * Debugger is active!
+2025-05-23 16:24:02,157 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-23 16:24:31,401 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app\\agents\\ecom_agent\\routes\\ecom.py', reloading
+2025-05-23 16:24:31,603 - werkzeug - INFO -  * Restarting with stat
+2025-05-23 16:24:33,447 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-23 16:24:33,464 - werkzeug - WARNING -  * Debugger is active!
+2025-05-23 16:24:33,467 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-23 16:24:35,177 - app.agents.ecom_agent.routes.ecom - INFO - Serving frontend from blueprint: E:\aiservice-main\frontend
+2025-05-23 16:24:35,289 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 16:24:35] "GET /api/ecom/generate HTTP/1.1" 200 -
+2025-05-23 16:24:35,346 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 16:24:35] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-23 16:26:37,681 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 16:26:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-23 16:28:07,747 - app.agents.ecom_agent.routes.ecom - INFO - Serving frontend from blueprint: E:\aiservice-main\frontend
+2025-05-23 16:28:07,749 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 16:28:07] "GET /api/ecom/generate HTTP/1.1" 200 -
+2025-05-23 16:28:07,809 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 16:28:07] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-05-23 16:28:49,690 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-23 16:28:49,726 - app.agents.ecom_agent.services.logic - INFO - OpenAI API call took 12.013084650039673 seconds
+2025-05-23 16:28:49,736 - app.agents.ecom_agent.services.logic - INFO - Parsed JSON result: {
+  "title": "\u00c1o Polo D\u1ec7t Kim H\u1ecda Ti\u1ebft Th\u00eau Mini - V\u1ea3i Tr\u01a1n Form N\u1eef Th\u1eddi Trang, Sang Tr\u1ecdng v\u00e0 Tho\u1ea3i M\u00e1i",
+  "feed_product": {
+    "item_type": "Default",
+    "standard_price": "Li\u00ean h\u1ec7",
+    "color": "Default",
+    "size": "Default",
+    "material_type": "Default",
+    "generic_keywords": "\u00e1o polo, th\u1eddi trang n\u1eef, \u00e1o th\u00eau, d\u1ec7t kim, \u00e1o tho\u1ea3i m\u00e1i, \u00e1o phong c\u00e1ch"
+  },
+  "short_description": "<ul><li>Ch\u1ea5t li\u1ec7u v\u1ea3i d\u1ec7t kim cao c\u1ea5p, m\u1ec1m m\u1ea1i v\u00e0 tho\u1ea3i m\u00e1i khi m\u1eb7c.</li><li>Thi\u1ebft k\u1ebf h\u1ecda ti\u1ebft th\u00eau mini \u0111\u1ed9c \u0111\u00e1o, t\u00f4n l\u00ean v\u1ebb \u0111\u1eb9p thanh l\u1ecbch.</li><li>Form d\u00e1ng n\u1eef t\u00ednh, ph\u00f9 h\u1ee3p cho nhi\u1ec1u d\u1ecbp kh\u00e1c nhau.</li><li>D\u1ec5 d\u00e0ng ph\u1ed1i h\u1ee3p v\u1edbi nhi\u1ec1u trang ph\u1ee5c kh\u00e1c nhau, t\u1eeb qu\u1ea7n jeans \u0111\u1ebfn ch\u00e2n v\u00e1y.</li><li>H\u01b0\u1edbng d\u1eabn ch\u0103m s\u00f3c \u0111\u01a1n gi\u1ea3n, gi\u1eef \u00e1o lu\u00f4n m\u1edbi l\u00e2u d\u00e0i.</li></ul>",
+  "description": "<h2>Gi\u1edbi thi\u1ec7u s\u1ea3n ph\u1ea9m</h2><p>Ch\u00e0o m\u1eebng b\u1ea1n \u0111\u1ebfn v\u1edbi th\u1ebf gi\u1edbi th\u1eddi trang n\u1eef hi\u1ec7n \u0111\u1ea1i v\u1edbi \u00c1o Polo D\u1ec7t Kim H\u1ecda Ti\u1ebft Th\u00eau Mini. S\u1ea3n ph\u1ea9m n\u00e0y kh\u00f4ng ch\u1ec9 mang l\u1ea1i phong c\u00e1ch thanh l\u1ecbch m\u00e0 c\u00f2n gi\u1ea3i quy\u1ebft n\u1ed7i lo v\u1ec1 s\u1ef1 tho\u1ea3i m\u00e1i khi m\u1eb7c. V\u1edbi thi\u1ebft k\u1ebf tinh t\u1ebf v\u00e0 ch\u1ea5t li\u1ec7u v\u1ea3i cao c\u1ea5p, \u00e1o polo c\u1ee7a ch\u00fang t\u00f4i ch\u1eafc ch\u1eafn s\u1ebd l\u00e0 s\u1ef1 l\u1ef1a ch\u1ecdn ho\u00e0n h\u1ea3o cho b\u1ea1n.</p><h2>Th\u00f4ng tin chi ti\u1ebft</h2><ul><li><strong>Ch\u1ea5t li\u1ec7u:</strong> V\u1ea3i d\u1ec7t kim cao c\u1ea5p, mang l\u1ea1i c\u1ea3m gi\u00e1c m\u1ec1m m\u1ea1i v\u00e0 d\u1ec5 ch\u1ecbu.</li><li><strong>Thi\u1ebft k\u1ebf:</strong> H\u1ecda ti\u1ebft th\u00eau mini n\u1ed5i b\u1eadt, t\u1ea1o n\u00ean s\u1ef1 \u0111\u1ed9c \u0111\u00e1o v\u00e0 c\u00e1 t\u00ednh cho ng\u01b0\u1eddi m\u1eb7c.</li><li><strong>Form d\u00e1ng:</strong> Ph\u00f9 h\u1ee3p v\u1edbi v\u00f3c d\u00e1ng ph\u1ee5 n\u1eef, t\u00f4n l\u00ean v\u1ebb \u0111\u1eb9p t\u1ef1 nhi\u00ean.</li><li><strong>C\u00e1ch ph\u1ed1i \u0111\u1ed3:</strong> D\u1ec5 d\u00e0ng k\u1ebft h\u1ee3p v\u1edbi qu\u1ea7n jeans, ch\u00e2n v\u00e1y hay shorts cho phong c\u00e1ch n\u0103ng \u0111\u1ed9ng.</li><li><strong>H\u01b0\u1edbng d\u1eabn b\u1ea3o qu\u1ea3n:</strong> L\u1ea7n \u0111\u1ea7u ti\u00ean n\u00ean x\u1ea3 v\u1edbi n\u01b0\u1edbc m\u00e1t, kh\u00f4ng gi\u1eb7t m\u00e1y trong 2 tu\u1ea7n \u0111\u1ea7u \u0111\u1ec3 \u0111\u1ea3m b\u1ea3o ch\u1ea5t l\u01b0\u1ee3ng s\u1ea3n ph\u1ea9m.</li></ul><p>H\u00e3y l\u00e0m m\u1edbi t\u1ee7 \u0111\u1ed3 c\u1ee7a b\u1ea1n ngay h\u00f4m nay v\u1edbi \u00c1o Polo D\u1ec7t Kim H\u1ecda Ti\u1ebft Th\u00eau Mini. \u0110\u1eebng b\u1ecf l\u1ee1 c\u01a1 h\u1ed9i s\u1edf h\u1eefu s\u1ea3n ph\u1ea9m kh\u00f4ng ch\u1ec9 \u0111\u1eb9p m\u00e0 c\u00f2n d\u1ec5 ch\u0103m s\u00f3c v\u00e0 gi\u1eef g\u00ecn. <strong>\u0110\u1eb7t h\u00e0ng ngay b\u00e2y gi\u1edd</strong> \u0111\u1ec3 tr\u1ea3i nghi\u1ec7m s\u1ef1 kh\u00e1c bi\u1ec7t trong phong c\u00e1ch th\u1eddi trang c\u1ee7a b\u1ea1n!</p>"
+}
+2025-05-23 16:28:49,740 - werkzeug - INFO - 127.0.0.1 - - [23/May/2025 16:28:49] "POST /api/ecom/generate HTTP/1.1" 200 -
+2025-05-23 16:29:28,361 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app.py', reloading
+2025-05-23 16:29:28,565 - werkzeug - INFO -  * Restarting with stat
+2025-05-23 16:29:30,798 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-23 16:29:30,825 - werkzeug - WARNING -  * Debugger is active!
+2025-05-23 16:29:30,828 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-23 16:29:41,911 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app\\agents\\ecom_agent\\services\\logic.py', reloading
+2025-05-23 16:29:42,047 - werkzeug - INFO -  * Restarting with stat
+2025-05-23 16:29:43,963 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-23 16:29:43,981 - werkzeug - WARNING -  * Debugger is active!
+2025-05-23 16:29:43,984 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-23 16:30:01,086 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app\\agents\\ecom_agent\\services\\logic.py', reloading
+2025-05-23 16:30:01,223 - werkzeug - INFO -  * Restarting with stat
+2025-05-23 16:30:02,976 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-23 16:30:02,994 - werkzeug - WARNING -  * Debugger is active!
+2025-05-23 16:30:02,998 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-23 16:30:17,097 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app.py', reloading
+2025-05-23 16:30:17,247 - werkzeug - INFO -  * Restarting with stat
+2025-05-23 16:30:19,390 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-23 16:30:19,406 - werkzeug - WARNING -  * Debugger is active!
+2025-05-23 16:30:19,412 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-23 16:42:39,618 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app\\agents\\ecom_agent\\services\\logic.py', reloading
+2025-05-23 16:42:39,911 - werkzeug - INFO -  * Restarting with stat
+2025-05-25 23:46:14,537 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-25 23:46:14,600 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.100.7:5001
+2025-05-25 23:46:14,600 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-25 23:46:14,603 - werkzeug - INFO -  * Restarting with stat
+2025-05-25 23:46:16,507 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-25 23:46:16,522 - werkzeug - WARNING -  * Debugger is active!
+2025-05-25 23:46:16,531 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-25 23:47:41,911 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 23:47:41] "GET / HTTP/1.1" 200 -
+2025-05-25 23:47:42,026 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 23:47:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-25 23:47:51,130 - app.agents.ecom_agent.routes.ecom - INFO - Serving frontend from blueprint: E:\aiservice-main\frontend
+2025-05-25 23:47:51,336 - werkzeug - INFO - 127.0.0.1 - - [25/May/2025 23:47:51] "GET /api/ecom/generate HTTP/1.1" 200 -
+2025-05-26 01:15:21,803 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 01:15:21,979 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.100.7:5001
+2025-05-26 01:15:21,981 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 01:15:21,985 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 01:15:24,962 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 01:15:25,026 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 01:15:25,040 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 01:16:01,554 - app.agents.ecom_agent.routes.ecom - INFO - Serving frontend from blueprint: E:\aiservice-main\frontend
+2025-05-26 01:16:01,725 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 01:16:01] "GET /api/ecom/generate HTTP/1.1" 200 -
+2025-05-26 01:22:41,882 - app.agents.ecom_agent.services.logic - INFO - Starting generate_listing with input: {'title': 'áo thun co dãn chất cotton thoáng mát thấm hút mồ hôi', 'product_description': 'Áo Thun chất liệu cotton, co dãn thoải mái, màu sắc đỏ đô, đen, trắng và navy rất hợp phong cách trẻ trung năng động. \n'}
+2025-05-26 01:22:50,378 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 01:22:50,402 - app.agents.ecom_agent.services.logic - INFO - OpenAI API call took 8.51870059967041 seconds
+2025-05-26 01:22:50,403 - app.agents.ecom_agent.services.logic - INFO - OpenAI response content (first 100 chars): ```json
+{
+    "title": "Áo Thun Co Dãn Cotton - Thoáng Mát, Hút Mồ Hôi - Phong Cách Trẻ Trung",
+    
+2025-05-26 01:22:50,404 - app.agents.ecom_agent.services.logic - INFO - Parsed JSON result: {
+  "title": "\u00c1o Thun Co D\u00e3n Cotton - Tho\u00e1ng M\u00e1t, H\u00fat M\u1ed3 H\u00f4i - Phong C\u00e1ch Tr\u1ebb Trung",
+  "bullet_points": "<ul><li><strong>L\u1ee3i \u00edch ch\u00ednh:</strong> \u00c1o thun co d\u00e3n gi\u00fap b\u1ea1n tho\u1ea3i m\u00e1i trong m\u1ecdi ho\u1ea1t \u0111\u1ed9ng, gi\u1eef cho c\u01a1 th\u1ec3 lu\u00f4n kh\u00f4 r\u00e1o.</li><li><strong>T\u00ednh n\u0103ng n\u1ed5i b\u1eadt:</strong> Ch\u1ea5t li\u1ec7u cotton cao c\u1ea5p, th\u1ea5m h\u00fat m\u1ed3 h\u00f4i t\u1ed1t, ph\u00f9 h\u1ee3p cho c\u1ea3 ng\u00e0y d\u00e0i.</li><li><strong>Ch\u1ea5t l\u01b0\u1ee3ng:</strong> S\u1ea3n ph\u1ea9m \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb cotton \u00eam \u00e1i, b\u1ec1n b\u1ec9 theo th\u1eddi gian, kh\u00f4ng phai m\u00e0u.</li><li><strong>Ti\u1ec7n \u00edch:</strong> D\u1ec5 d\u00e0ng ph\u1ed1i \u0111\u1ed3, ph\u00f9 h\u1ee3p cho c\u1ea3 \u0111i h\u1ecdc, \u0111i l\u00e0m v\u00e0 c\u00e1c ho\u1ea1t \u0111\u1ed9ng th\u1ec3 thao.</li><li><strong>Cam k\u1ebft:</strong> B\u1ea3o h\u00e0nh ch\u1ea5t l\u01b0\u1ee3ng s\u1ea3n ph\u1ea9m, h\u1ed7 tr\u1ee3 kh\u00e1ch h\u00e0ng t\u1eadn t\u00ecnh.</li></ul>",
+  "description": "<h2>Gi\u1edbi thi\u1ec7u s\u1ea3n ph\u1ea9m</h2><p>\u00c1o thun co d\u00e3n ch\u1ea5t cotton mang \u0111\u1ebfn s\u1ef1 tho\u1ea3i m\u00e1i v\u00e0 phong c\u00e1ch tr\u1ebb trung. V\u1edbi kh\u1ea3 n\u0103ng th\u1ea5m h\u00fat m\u1ed3 h\u00f4i t\u1ed1t, s\u1ea3n ph\u1ea9m gi\u00fap b\u1ea1n lu\u00f4n c\u1ea3m th\u1ea5y d\u1ec5 ch\u1ecbu trong m\u1ecdi ho\u1ea1t \u0111\u1ed9ng.</p><h2>T\u00ednh n\u0103ng n\u1ed5i b\u1eadt</h2><ul><li>M\u00e0u s\u1eafc \u0111a d\u1ea1ng: \u0111\u1ecf \u0111\u00f4, \u0111en, tr\u1eafng v\u00e0 navy, d\u1ec5 d\u00e0ng l\u1ef1a ch\u1ecdn theo s\u1edf th\u00edch.</li><li>Ch\u1ea5t li\u1ec7u cotton m\u1ec1m m\u1ea1i, co d\u00e3n, mang l\u1ea1i c\u1ea3m gi\u00e1c d\u1ec5 ch\u1ecbu khi m\u1eb7c.</li></ul><h2>Th\u00f4ng tin k\u1ef9 thu\u1eadt</h2><p>Ch\u1ea5t li\u1ec7u: cotton; M\u00e0u s\u1eafc: \u0111\u1ecf \u0111\u00f4, \u0111en, tr\u1eafng, navy; \u0110\u1ed1i t\u01b0\u1ee3ng s\u1eed d\u1ee5ng: nam v\u00e0 n\u1eef; Phong c\u00e1ch: tr\u1ebb trung v\u00e0 n\u0103ng \u0111\u1ed9ng.</p>"
+}
+2025-05-26 01:22:50,410 - app.agents.ecom_agent.services.logic - ERROR - Error in generate_listing: Thiếu trường bắt buộc: feed_product
+2025-05-26 01:22:50,413 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 01:22:50] "POST /api/ecom/generate HTTP/1.1" 200 -
+2025-05-26 01:23:48,477 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app\\agents\\ecom_agent\\services\\logic.py', reloading
+2025-05-26 01:23:48,873 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 01:23:52,896 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 01:23:52,928 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 01:23:52,935 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 01:24:01,072 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app\\agents\\ecom_agent\\services\\logic.py', reloading
+2025-05-26 01:24:01,363 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 01:24:03,888 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 01:24:03,916 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 01:24:03,924 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 01:24:05,194 - app.agents.ecom_agent.routes.ecom - INFO - Serving frontend from blueprint: E:\aiservice-main\frontend
+2025-05-26 01:24:05,265 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 01:24:05] "GET /api/ecom/generate HTTP/1.1" 200 -
+2025-05-26 01:30:25,914 - app.agents.ecom_agent.services.logic - INFO - Starting generate_listing with input: {'title': 'Áo thun co dãn cotton đa màu sắc phong cách trẻ trung cho giới trẻ', 'product_description': 'Áo cotton nguyên chất, thoáng mát co dãn thấm hút mồ hôi, màu sắc trẻ trung như đen, trắng, đỏ đô, xanh mint và hồng dễ dàng lựa chọn. '}
+2025-05-26 01:30:32,857 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 01:30:32,873 - app.agents.ecom_agent.services.logic - INFO - OpenAI API call took 6.957606792449951 seconds
+2025-05-26 01:30:32,874 - app.agents.ecom_agent.services.logic - INFO - OpenAI response content (first 100 chars): ```json
+{
+    "title": "Áo Thun Cotton Co Dãn Đa Màu Sắc - Phong Cách Trẻ Trung Cho Giới Trẻ",
+    "
+2025-05-26 01:30:32,874 - app.agents.ecom_agent.services.logic - INFO - Parsed JSON result: {
+  "title": "\u00c1o Thun Cotton Co D\u00e3n \u0110a M\u00e0u S\u1eafc - Phong C\u00e1ch Tr\u1ebb Trung Cho Gi\u1edbi Tr\u1ebb",
+  "bullet_points": "<ul><li><strong>L\u1ee3i \u00edch ch\u00ednh:</strong> \u00c1o cotton co d\u00e3n, tho\u00e1ng m\u00e1t gi\u00fap b\u1ea1n tho\u1ea3i m\u00e1i su\u1ed1t c\u1ea3 ng\u00e0y.</li><li><strong>T\u00ednh n\u0103ng n\u1ed5i b\u1eadt:</strong> Nhi\u1ec1u m\u00e0u s\u1eafc tr\u1ebb trung nh\u01b0 \u0111en, tr\u1eafng, \u0111\u1ecf \u0111\u00f4, xanh mint v\u00e0 h\u1ed3ng d\u1ec5 d\u00e0ng l\u1ef1a ch\u1ecdn.</li><li><strong>Ch\u1ea5t l\u01b0\u1ee3ng:</strong> Ch\u1ea5t li\u1ec7u cotton nguy\u00ean ch\u1ea5t, th\u1ea5m h\u00fat m\u1ed3 h\u00f4i, b\u1ec1n \u0111\u1eb9p theo th\u1eddi gian.</li><li><strong>Ti\u1ec7n \u00edch:</strong> D\u1ec5 d\u00e0ng ph\u1ed1i h\u1ee3p v\u1edbi nhi\u1ec1u trang ph\u1ee5c, ph\u00f9 h\u1ee3p v\u1edbi nhi\u1ec1u t\u00ecnh hu\u1ed1ng s\u1eed d\u1ee5ng.</li><li><strong>Cam k\u1ebft:</strong> S\u1ea3n ph\u1ea9m ch\u1ea5t l\u01b0\u1ee3ng cao, h\u1ed7 tr\u1ee3 kh\u00e1ch h\u00e0ng t\u1eadn t\u00ecnh.</li></ul>",
+  "description": "<h2>Gi\u1edbi thi\u1ec7u s\u1ea3n ph\u1ea9m</h2><p>\u00c1o thun cotton co d\u00e3n mang \u0111\u1ebfn s\u1ef1 tho\u1ea3i m\u00e1i v\u00e0 phong c\u00e1ch tr\u1ebb trung cho gi\u1edbi tr\u1ebb. V\u1edbi nhi\u1ec1u m\u00e0u s\u1eafc \u0111a d\u1ea1ng, b\u1ea1n c\u00f3 th\u1ec3 d\u1ec5 d\u00e0ng ch\u1ecdn l\u1ef1a theo s\u1edf th\u00edch c\u00e1 nh\u00e2n.</p><h2>T\u00ednh n\u0103ng n\u1ed5i b\u1eadt</h2><ul><li>Ch\u1ea5t li\u1ec7u cotton cao c\u1ea5p v\u1edbi kh\u1ea3 n\u0103ng th\u1ea5m h\u00fat m\u1ed3 h\u00f4i, gi\u1eef cho b\u1ea1n lu\u00f4n kh\u00f4 r\u00e1o.</li><li>Thi\u1ebft k\u1ebf tr\u1ebb trung, n\u0103ng \u0111\u1ed9ng, ph\u00f9 h\u1ee3p cho m\u1ecdi ho\u1ea1t \u0111\u1ed9ng h\u00e0ng ng\u00e0y.</li></ul><h2>Th\u00f4ng tin k\u1ef9 thu\u1eadt</h2><p>\u00c1o \u0111\u01b0\u1ee3c l\u00e0m t\u1eeb ch\u1ea5t li\u1ec7u cotton nguy\u00ean ch\u1ea5t, co d\u00e3n t\u1ed1t, mang l\u1ea1i c\u1ea3m gi\u00e1c d\u1ec5 ch\u1ecbu v\u00e0 tho\u1ea3i m\u00e1i khi m\u1eb7c.</p>"
+}
+2025-05-26 01:30:32,877 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 01:30:32] "POST /api/ecom/generate HTTP/1.1" 200 -
+2025-05-26 01:31:59,532 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app\\agents\\ecom_agent\\services\\logic.py', reloading
+2025-05-26 01:32:00,004 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 01:32:03,306 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 01:32:03,343 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 01:32:03,351 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 01:32:55,096 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app\\agents\\ecom_agent\\services\\logic.py', reloading
+2025-05-26 01:32:55,476 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 01:32:58,107 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 01:32:58,152 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 01:32:58,162 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 01:33:46,594 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app\\agents\\ecom_agent\\services\\logic.py', reloading
+2025-05-26 01:33:46,997 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 01:33:49,801 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 01:33:49,843 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 01:33:49,860 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 01:33:56,990 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app\\agents\\ecom_agent\\services\\logic.py', reloading
+2025-05-26 01:33:57,546 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 01:34:00,433 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 01:34:00,466 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 01:34:00,474 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 01:35:33,077 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app\\agents\\ecom_agent\\services\\batch_logic.py', reloading
+2025-05-26 01:35:33,862 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 01:35:38,750 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 01:35:38,789 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 01:35:38,808 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 01:35:46,954 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app\\agents\\ecom_agent\\__init__.py', reloading
+2025-05-26 01:35:47,344 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 01:35:51,953 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 01:35:51,998 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 01:35:52,014 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 01:40:10,920 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app\\agents\\ecom_agent\\services\\logic.py', reloading
+2025-05-26 01:40:11,450 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 01:40:15,722 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 01:40:15,768 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 01:40:15,783 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 01:41:55,233 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app\\agents\\ecom_agent\\services\\batch_logic.py', reloading
+2025-05-26 01:41:55,602 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 01:41:59,118 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 01:41:59,148 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 01:41:59,156 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 01:42:37,743 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app\\agents\\ecom_agent\\tests\\test_batch_logic.py', reloading
+2025-05-26 01:42:38,217 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 01:42:42,176 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 01:42:42,206 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 01:42:42,218 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 01:47:21,048 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app\\agents\\ecom_agent\\__init__.py', reloading
+2025-05-26 01:47:21,352 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 01:47:24,465 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 01:47:24,489 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 01:47:24,498 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 01:47:29,594 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app\\agents\\ecom_agent\\tests\\test_batch_logic.py', reloading
+2025-05-26 01:47:29,944 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 01:47:34,004 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 01:47:34,030 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 01:47:34,035 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 01:51:59,720 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\run.py', reloading
+2025-05-26 01:52:00,023 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 01:52:03,566 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 01:52:03,600 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 01:52:03,610 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 01:52:39,132 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\run.py', reloading
+2025-05-26 01:52:39,438 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 01:52:42,400 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 01:52:42,427 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 01:52:42,431 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 08:32:37,306 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 08:32:37,367 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.63:5001
+2025-05-26 08:32:37,368 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-26 08:32:37,372 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 08:32:40,154 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 08:32:40,183 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 08:32:40,190 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 08:33:06,382 - __main__ - INFO - Serving frontend from: E:\aiservice-main\frontend
+2025-05-26 08:33:06,588 - werkzeug - INFO - 192.168.1.63 - - [26/May/2025 08:33:06] "GET /api/ecom/generate HTTP/1.1" 200 -
+2025-05-26 08:33:07,128 - werkzeug - INFO - 192.168.1.63 - - [26/May/2025 08:33:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-26 08:39:59,168 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app.py', reloading
+2025-05-26 08:39:59,487 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 08:40:04,313 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 08:40:04,348 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 08:40:04,354 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 08:40:32,995 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 08:40:32] "[31m[1mGET /api/ecom/batch HTTP/1.1[0m" 405 -
+2025-05-26 08:40:33,196 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 08:40:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-26 08:43:19,459 - __main__ - ERROR - Error processing batch request: 400 Bad Request: Failed to decode JSON object: 'utf-8' codec can't decode byte 0xc1 in position 24: invalid start byte
+2025-05-26 08:43:19,462 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 08:43:19] "[35m[1mPOST /api/ecom/batch HTTP/1.1[0m" 500 -
+2025-05-26 08:43:39,877 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app.py', reloading
+2025-05-26 08:43:40,120 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 08:43:44,360 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 08:43:44,408 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 08:43:44,424 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 08:43:47,505 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app.py', reloading
+2025-05-26 08:43:47,744 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 08:43:51,337 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 08:43:51,366 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 08:43:51,372 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 08:44:13,076 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 08:44:13] "POST /api/ecom/batch HTTP/1.1" 200 -
+2025-05-26 08:47:22,732 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app.py', reloading
+2025-05-26 08:47:22,995 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 08:47:26,834 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 08:47:26,872 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 08:47:26,882 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 08:50:45,038 - werkzeug - INFO -  * Detected change in 'E:\\aiservice-main\\backend\\app.py', reloading
+2025-05-26 08:50:45,293 - werkzeug - INFO -  * Restarting with stat
+2025-05-26 08:50:49,308 - __main__ - INFO - Starting Flask application on port 5001
+2025-05-26 08:50:49,331 - werkzeug - WARNING -  * Debugger is active!
+2025-05-26 08:50:49,336 - werkzeug - INFO -  * Debugger PIN: 135-939-141
+2025-05-26 08:51:16,329 - app.agents.ecom_agent.services.logic - INFO - Starting generate_listing with input: {'title': 'Áo thun nam cotton 100% màu den size M', 'product_description': 'Áo thun nam cotton 100% màu den size M, ch?t li?u thoáng mát'}
+2025-05-26 08:51:16,352 - app.agents.ecom_agent.services.logic - INFO - Starting generate_listing with input: {'title': 'Áo ôm dáng n? co dãn thoáng mát phong cách thoáng sành di?u', 'product_description': 'Áo ôm dáng n? co dãn ch?t cotton 100% màu den size M, ch?t li?u thoáng mát'}
+2025-05-26 08:51:23,684 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 08:51:23,712 - app.agents.ecom_agent.services.logic - INFO - OpenAI API call took 7.356159687042236 seconds
+2025-05-26 08:51:23,713 - app.agents.ecom_agent.services.logic - INFO - OpenAI response content (first 100 chars): ```json
+{
+    "title": "Áo Ôm Dáng Nữ - Co Dãn Thoáng Mát - Chất Cotton 100% - Phong Cách Sành Điệu"
+2025-05-26 08:51:23,716 - app.agents.ecom_agent.services.logic - INFO - Parsed JSON result: {
+  "title": "\u00c1o \u00d4m D\u00e1ng N\u1eef - Co D\u00e3n Tho\u00e1ng M\u00e1t - Ch\u1ea5t Cotton 100% - Phong C\u00e1ch S\u00e0nh \u0110i\u1ec7u",
+  "bullet_points": "<ul><li>Gi\u00fap b\u1ea1n t\u1ef1 tin v\u00e0 n\u1ed5i b\u1eadt v\u1edbi thi\u1ebft k\u1ebf \u00f4m s\u00e1t, t\u00f4n l\u00ean \u0111\u01b0\u1eddng n\u00e9t c\u01a1 th\u1ec3.</li><li>Ch\u1ea5t li\u1ec7u cotton 100% m\u1ec1m m\u1ea1i, tho\u00e1ng m\u00e1t, ph\u00f9 h\u1ee3p cho m\u1ecdi ho\u1ea1t \u0111\u1ed9ng.</li><li>\u0110\u1ed9 b\u1ec1n cao, d\u1ec5 gi\u1eb7t v\u00e0 b\u1ea3o qu\u1ea3n, gi\u1eef m\u00e0u s\u1eafc kh\u00f4ng phai.</li><li>D\u1ec5 d\u00e0ng k\u1ebft h\u1ee3p v\u1edbi nhi\u1ec1u trang ph\u1ee5c kh\u00e1c nhau, t\u1ea1o phong c\u00e1ch \u0111a d\u1ea1ng.</li><li>H\u1ed7 tr\u1ee3 kh\u00e1ch h\u00e0ng t\u1eadn t\u00ecnh, b\u1ea3o \u0111\u1ea3m s\u1ef1 h\u00e0i l\u00f2ng khi mua s\u1eafm.</li></ul>",
+  "description": "<h2>Gi\u1edbi thi\u1ec7u s\u1ea3n ph\u1ea9m</h2><p>\u00c1o \u00f4m d\u00e1ng n\u1eef v\u1edbi ch\u1ea5t li\u1ec7u cotton 100% mang l\u1ea1i c\u1ea3m gi\u00e1c tho\u1ea3i m\u00e1i v\u00e0 phong c\u00e1ch s\u00e0nh \u0111i\u1ec7u cho ng\u01b0\u1eddi m\u1eb7c. M\u00e0u \u0111en d\u1ec5 d\u00e0ng ph\u1ed1i h\u1ee3p v\u1edbi nhi\u1ec1u trang ph\u1ee5c kh\u00e1c nhau, gi\u00fap b\u1ea1n t\u1ef1 tin h\u01a1n trong m\u1ecdi t\u00ecnh hu\u1ed1ng.</p><h2>T\u00ednh n\u0103ng n\u1ed5i b\u1eadt</h2><ul><li>Thi\u1ebft k\u1ebf \u00f4m s\u00e1t, t\u00f4n l\u00ean \u0111\u01b0\u1eddng cong c\u01a1 th\u1ec3, ph\u00f9 h\u1ee3p cho c\u1ea3 \u0111i l\u00e0m v\u00e0 \u0111i ch\u01a1i.</li><li>Ch\u1ea5t li\u1ec7u co d\u00e3n, mang l\u1ea1i s\u1ef1 tho\u1ea3i m\u00e1i t\u1ed1i \u0111a trong m\u1ecdi ho\u1ea1t \u0111\u1ed9ng h\u00e0ng ng\u00e0y.</li></ul><h2>Th\u00f4ng tin k\u1ef9 thu\u1eadt</h2><p>\u00c1o c\u00f3 m\u00e0u \u0111en, size M, ch\u1ea5t li\u1ec7u cotton 100% \u0111\u1ea3m b\u1ea3o \u0111\u1ed9 b\u1ec1n v\u00e0 s\u1ef1 tho\u00e1ng m\u00e1t khi s\u1eed d\u1ee5ng.</p>"
+}
+2025-05-26 08:51:25,015 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-26 08:51:25,019 - app.agents.ecom_agent.services.logic - INFO - OpenAI API call took 8.685706853866577 seconds
+2025-05-26 08:51:25,020 - app.agents.ecom_agent.services.logic - INFO - OpenAI response content (first 100 chars): ```json
+{
+    "title": "Áo Thun Nam - 100% Cotton Đen Size M - Thoáng Mát và Dễ Dàng Sử Dụng",
+    "
+2025-05-26 08:51:25,022 - app.agents.ecom_agent.services.logic - INFO - Parsed JSON result: {
+  "title": "\u00c1o Thun Nam - 100% Cotton \u0110en Size M - Tho\u00e1ng M\u00e1t v\u00e0 D\u1ec5 D\u00e0ng S\u1eed D\u1ee5ng",
+  "bullet_points": "<ul><li>Thi\u1ebft k\u1ebf hi\u1ec7n \u0111\u1ea1i, th\u00edch h\u1ee3p cho m\u1ecdi d\u1ecbp s\u1eed d\u1ee5ng</li><li>Ch\u1ea5t li\u1ec7u cotton 100% m\u1ec1m m\u1ea1i, t\u1ea1o c\u1ea3m gi\u00e1c tho\u1ea3i m\u00e1i v\u00e0 d\u1ec5 ch\u1ecbu</li><li>C\u00f3 \u0111\u1ed9 b\u1ec1n cao, gi\u1eef m\u00e0u t\u1ed1t v\u00e0 kh\u00f4ng b\u1ecb bi\u1ebfn d\u1ea1ng sau khi gi\u1eb7t</li><li>D\u1ec5 d\u00e0ng k\u1ebft h\u1ee3p v\u1edbi nhi\u1ec1u trang ph\u1ee5c kh\u00e1c nhau, ph\u00f9 h\u1ee3p cho c\u1ea3 trong nh\u00e0 v\u00e0 ngo\u00e0i tr\u1eddi</li><li>H\u1ed7 tr\u1ee3 kh\u00e1ch h\u00e0ng t\u1eadn t\u00ecnh, b\u1ea3o h\u00e0nh s\u1ea3n ph\u1ea9m trong 6 th\u00e1ng</li></ul>",
+  "description": "<h2>Gi\u1edbi thi\u1ec7u s\u1ea3n ph\u1ea9m</h2><p>\u00c1o thun nam cotton 100% m\u00e0u \u0111en size M mang l\u1ea1i cho b\u1ea1n s\u1ef1 tho\u1ea3i m\u00e1i v\u00e0 phong c\u00e1ch hi\u1ec7n \u0111\u1ea1i. V\u1edbi ch\u1ea5t li\u1ec7u tho\u00e1ng m\u00e1t, s\u1ea3n ph\u1ea9m n\u00e0y l\u00e0 l\u1ef1a ch\u1ecdn l\u00fd t\u01b0\u1edfng cho nh\u1eefng ng\u00e0y h\u00e8 oi \u1ea3.</p><h2>T\u00ednh n\u0103ng n\u1ed5i b\u1eadt</h2><ul><li>Ch\u1ea5t li\u1ec7u cotton 100% gi\u00fap th\u1ea5m h\u00fat m\u1ed3 h\u00f4i t\u1ed1t, t\u1ea1o c\u1ea3m gi\u00e1c d\u1ec5 ch\u1ecbu khi m\u1eb7c.</li><li>Thi\u1ebft k\u1ebf \u0111\u01a1n gi\u1ea3n nh\u01b0ng thanh l\u1ecbch, d\u1ec5 d\u00e0ng ph\u1ed1i h\u1ee3p v\u1edbi nhi\u1ec1u trang ph\u1ee5c kh\u00e1c nhau.</li></ul><h2>Th\u00f4ng tin k\u1ef9 thu\u1eadt</h2><p>\u00c1o c\u00f3 k\u00edch th\u01b0\u1edbc size M, ph\u00f9 h\u1ee3p cho nam gi\u1edbi. S\u1ea3n ph\u1ea9m \u0111\u01b0\u1ee3c s\u1ea3n xu\u1ea5t v\u1edbi ti\u00eau chu\u1ea9n ch\u1ea5t l\u01b0\u1ee3ng cao, \u0111\u1ea3m b\u1ea3o \u0111\u1ed9 b\u1ec1n v\u00e0 t\u00ednh th\u1eddi trang.</p>"
+}
+2025-05-26 08:51:25,033 - werkzeug - INFO - 127.0.0.1 - - [26/May/2025 08:51:25] "POST /api/ecom/batch HTTP/1.1" 200 -
